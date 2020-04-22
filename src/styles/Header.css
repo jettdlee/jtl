@@ -6,3 +6,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+.sub-header{
+  font-size: 2.5rem;
+}
+
+.avatar-logo {
+  padding-bottom: 2.5rem;
+  width: 90%;
+}
+
+.headings {
+  padding: 2rem;
+}
