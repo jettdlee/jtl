@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #88e35b;
+  background-image: linear-gradient(to right, #141e30, #243b55);
   font-family: 'Bebas Neue', -apple-system, BlinkMacSystemFont,  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans' ; 
   color: #fff;
 }

@@ -9,11 +9,12 @@
 
 .navbar-ul {
   list-style-type: none;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-direction: row;
 }
 
 .navbar-list-item {
-  width: 20%;
+  /* width: 20%; */
+  padding: 1rem;
 }

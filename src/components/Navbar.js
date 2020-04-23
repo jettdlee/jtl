@@ -5,8 +5,8 @@ class Navbar extends React.Component {
   render() {
     return(
       <nav className="navbar" id="main_navbar">
-        <div className="container">
-          <ul className="navbar-ul horizontal">
+        <div className="">
+          <ul className="navbar-ul horizontal flex-row">
             <li className="navbar-list-item">About</li>
             <li className="navbar-list-item">Experience</li>
             <li className="navbar-list-item">Portfolio</li>
