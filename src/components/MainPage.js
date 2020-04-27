@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Header.css';
+import '../styles/MainPage.css';
 
-class Header extends React.Component {
+class MainPage extends React.Component {
   render() {
     return (
       <header className="App-header">
@@ -26,4 +26,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header;
+export default MainPage;
