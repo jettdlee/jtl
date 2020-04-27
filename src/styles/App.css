@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   color: #fff;
+  font-family: 'Bebas Neue', -apple-system, BlinkMacSystemFont,  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans' ; 
 }
 
 h1 {

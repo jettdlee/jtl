@@ -1,17 +1,16 @@
 import React from 'react';
+import NavbarButtons from './partials/NavbarButtons';
 import '../styles/Navbar.css';
 
 class Navbar extends React.Component {
   render() {
     return(
       <nav className="navbar" id="main_navbar">
-        <div className="">
-          <ul className="navbar-ul horizontal flex-row">
-            <li className="navbar-list-item">About</li>
-            <li className="navbar-list-item">Experience</li>
-            <li className="navbar-list-item">Portfolio</li>
-            <li className="navbar-list-item">Contact</li>
-          </ul>
+        <div className="navbar-ul horizontal flex-row">
+          <NavbarButtons buttonText="About" buttonLink="/about" history={this.props.history}/>
+          <NavbarButtons buttonText="Experience" buttonLink="/experience" />
+          <NavbarButtons buttonText="Portfolio" buttonLink="/portfolio" />
+          <NavbarButtons buttonText="Contact" buttonLink="/contact" />
         </div>
       </nav>
     )
