@@ -7,7 +7,8 @@ class Navbar extends React.Component {
     return(
       <nav className="navbar" id="main_navbar">
         <div className="navbar-ul horizontal flex-row">
-          <NavbarButtons buttonText="About" buttonLink="/about" history={this.props.history}/>
+          <NavbarButtons buttonText="Jet-Tsyn Lee" buttonLink="/" />
+          <NavbarButtons buttonText="About" buttonLink="/about" />
           <NavbarButtons buttonText="Experience" buttonLink="/experience" />
           <NavbarButtons buttonText="Portfolio" buttonLink="/portfolio" />
           <NavbarButtons buttonText="Contact" buttonLink="/contact" />

@@ -1,9 +1,15 @@
 .App {
+  position: relative;
   text-align: center;
+  min-height: 100vh;
   color: #fff;
   font-family: 'Bebas Neue', -apple-system, BlinkMacSystemFont,  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans' ; 
 }
 
 h1 {
   font-size: 5rem;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
 }

@@ -14,16 +14,18 @@ import './styles/App.css';
 
 const App = () => (
   <div className="App">
-    <HashRouter>
-      <Navbar />
-      <Switch>
-        <Route exact path="/" component={MainPage} />
-        <Route path="/about" component={About} />
-        <Route path="/experience" component={Experience} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
-    </HashRouter>
+    <div className="content-wrap">
+      <HashRouter>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={MainPage} />
+          <Route path="/about" component={About} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </HashRouter>
+    </div>
     <Footer />
   </div>
 )
