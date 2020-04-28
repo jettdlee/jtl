@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import MainPage from './components/MainPage';
@@ -14,7 +14,7 @@ import './styles/App.css';
 
 const App = () => (
   <div className="App">
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Switch>
         <Route exact path="/" component={MainPage} />
@@ -23,7 +23,7 @@ const App = () => (
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
     <Footer />
   </div>
 )

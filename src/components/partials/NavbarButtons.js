@@ -1,19 +1,15 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 class NavbarButtons extends React.Component {
 
-  goToLink = (event, link) => {
-    // event.preventDefault();
-    // this.props.history.push(link);
-  }
 
   render() {
     const { buttonText, buttonLink } = this.props; 
 
     return(
-      <button className="navbar-list-item" onClick={this.goToLink(buttonLink)}>
+      <Link className="navbar-list-item" to={buttonLink}>
         {buttonText}
-      </button>
+      </Link>
     )
   }
 }
