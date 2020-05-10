@@ -4,8 +4,8 @@ import '../styles/Footer.css';
 class Footer extends React.Component {
   render() {
     return (
-      <footer class="copyright text-center">
-        <div class=""><small>Copyright © Your Website 2020</small></div>
+      <footer className="copyright text-center">
+        <div className=""><small>Copyright © Your Website 2020</small></div>
       </footer>
     )
   }

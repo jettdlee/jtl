@@ -1,5 +1,7 @@
 import React from 'react';
 import SectionHeader from './partials/SectionHeader';
+import PortfolioItem from './portfolio/item';
+import '../styles/Portfolio.css';
 
 class Portfolio extends React.Component {
   render() {
@@ -9,7 +11,9 @@ class Portfolio extends React.Component {
         Project
         CPR Metron
         Machine Learning Stuff
-        
+        <div>
+          <PortfolioItem itemText="Project"/>
+        </div>
       </section>
     )
   }
