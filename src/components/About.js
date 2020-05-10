@@ -2,7 +2,7 @@ import React from 'react';
 import Bio from './about/bio';
 import Skills from './about/skills';
 import Tools from './about/tools';
-import { SectionHeader } from './partials/LayoutPartials';
+import SectionHeader from './partials/SectionHeader';
 
 import '../styles/About.css';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SectionHeader } from './partials/LayoutPartials';
+import SectionHeader from './partials/SectionHeader';
 
 class Experience extends React.Component {
   render() {
