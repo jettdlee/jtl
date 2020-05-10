@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Bio() {
   return (
     <div id="bio" className="row">
