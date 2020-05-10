@@ -2,6 +2,8 @@ import React from 'react';
 import Bio from './about/bio';
 import Skills from './about/skills';
 import Tools from './about/tools';
+import { SectionHeader } from './partials/LayoutPartials';
+
 import '../styles/About.css';
 
 class About extends React.Component {
@@ -9,7 +11,7 @@ class About extends React.Component {
     return (
       <section className="" id="about">
         <div className="">
-          <h2 className="">Who am I</h2>
+          <SectionHeader headerText="Who am I" />
           <Bio />
           <Skills />
           <Tools />
