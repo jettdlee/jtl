@@ -2,8 +2,8 @@ import React from 'react';
 
 function Skills() {
   return (
-    <div id="skills" className="row">
-      <div className="mr-auto">
+    <div id="skills">
+      <div>
         <h3>Languages</h3>
         <div>
           <img id="rails" src="/images/skills/rails.png" alt="" />

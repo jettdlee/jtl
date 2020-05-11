@@ -11,7 +11,7 @@ class About extends React.Component {
     return (
       <section className="" id="about">
         <div className="">
-          <SectionHeader headerText="Who am I" />
+          <SectionHeader headerText="About" />
           <Bio />
           <Skills />
           <Tools />
