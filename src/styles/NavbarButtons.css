@@ -1,0 +1,17 @@
+.navbar-list-item {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-left: 1em;
+  min-width: 5rem;
+  font-size: 1.2rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar-list-item:hover {
+  text-decoration: none;
+  background-color: white;
+      color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+}

@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 0.5rem 1rem;
+  margin: 0.7rem 1rem;
   font-size: 1rem;
 }
 
@@ -13,6 +13,15 @@
   flex-direction: row;
 }
 
-.navbar-list-item {
+.navbar-home-link {
   padding: 0.5rem;
+  margin-left: 1em;
+  min-width: 5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.navbar-home-link:hover {
+  text-decoration: none;
+  color: white; 
 }

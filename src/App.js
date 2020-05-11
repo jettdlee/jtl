@@ -26,7 +26,7 @@ const App = () => (
         </Switch>
       </HashRouter>
     </div>
-    <Footer />
+    {/* <Footer /> */}
   </div>
 )
 

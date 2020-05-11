@@ -1,13 +1,16 @@
 import React from 'react';
 import NavbarButtons from './partials/NavbarButtons';
+import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 class Navbar extends React.Component {
   render() {
-    return(
+    return (
       <nav className="navbar" id="main_navbar">
+        <Link className="navbar-home-link" to="/">
+          Jet-Tsyn Lee
+        </Link>
         <div className="navbar-ul horizontal flex-row">
-          <NavbarButtons buttonText="Jet-Tsyn Lee" buttonLink="/" />
           <NavbarButtons buttonText="About" buttonLink="/about" />
           <NavbarButtons buttonText="Experience" buttonLink="/experience" />
           <NavbarButtons buttonText="Portfolio" buttonLink="/portfolio" />

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faEllipsisV } from '@fortawesome/free-solid-svg-icons';
 
 function PortfolioItem(props) {
   return (
@@ -11,9 +11,12 @@ function PortfolioItem(props) {
             <div className="portfolio-item-text">
               {props.itemText}
             </div>
-            <div className="portfolio-plus">
-              <FontAwesomeIcon icon={faPlus} className="fas fa-3x" />
+            <div className="portfolio-item-summary">
+              test
             </div>
+          </div>
+          <div className="portfolio-item-icon">
+            <FontAwesomeIcon icon={faEllipsisV} className="fa-2x" />
           </div>
         </div>
         <img className="portfolio-item-image" src="/images/portfolio/cabin.png" alt="" />
