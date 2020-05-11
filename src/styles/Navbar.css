@@ -7,6 +7,11 @@
   font-size: 1rem;
 }
 
+.navbar-main-links {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-ul {
   list-style-type: none;
   display: flex;
@@ -24,4 +29,18 @@
 .navbar-home-link:hover {
   text-decoration: none;
   color: white; 
+}
+
+.link-icon {
+  display: inline-flex !important; 
+  border-radius: 50% !important;
+  width: 3rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+
+a svg {
+  font-size: 1.3rem;
 }

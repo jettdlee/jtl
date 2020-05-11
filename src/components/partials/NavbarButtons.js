@@ -6,7 +6,7 @@ class NavbarButtons extends React.Component {
     const { buttonText, buttonLink } = this.props; 
 
     return(
-      <Link className="navbar-list-item" to={buttonLink}>
+      <Link className="navbar-list-item btn btn-outline-light" to={buttonLink}>
         {buttonText}
       </Link>
     )
