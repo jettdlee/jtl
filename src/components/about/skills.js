@@ -5,7 +5,7 @@ function Skills() {
     <div id="skills">
       <div>
         <h3>Languages</h3>
-        <div>
+        <div className="skill-img">
           <img id="rails" src="/images/skills/rails.png" alt="" />
           <img id="ruby" src="/images/skills/ruby.png" alt="" />
           <img id="python" src="/images/skills/python.png" alt="" />

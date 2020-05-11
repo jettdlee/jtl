@@ -1,0 +1,13 @@
+#bio {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-img {
+  width: 20%;
+}
+
+.about-summary {
+  font-size: 1.3rem;
+  width: 25rem;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 import NavbarButtons from './partials/NavbarButtons';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import '../styles/Navbar.css';
+import ExternalLinkIcon from './partials/ExternalLinkIcon';
 
 class Navbar extends React.Component {
   render() {
@@ -13,12 +13,8 @@ class Navbar extends React.Component {
           <Link className="navbar-home-link" to="/">
             Jet-Tsyn Lee
           </Link>
-          <a className="link-icon btn btn-outline-light" href="https://www.linkedin.com/in/jet-tsyn-lee/" target="_blank">
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-          <a className="link-icon btn btn-outline-light" href="https://twitter.com/jettdlee" target="_blank">
-            <FontAwesomeIcon icon={faTwitter} />
-          </a>
+          <ExternalLinkIcon externalLink="https://www.linkedin.com/in/jet-tsyn-lee/" icon={faLinkedin} />
+          <ExternalLinkIcon externalLink="https://twitter.com/jettdlee" icon={faTwitter} />
         </div>
         <div className="navbar-ul horizontal flex-row">
           <NavbarButtons buttonText="About" buttonLink="/about" />

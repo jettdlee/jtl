@@ -2,7 +2,7 @@ import React from 'react';
 
 function Tools() {
   return (
-    <div id="tools" className="row">
+    <div id="tools">
       <div>
         <h3>Tools</h3>
         <div>
