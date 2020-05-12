@@ -1,13 +1,16 @@
 #bio {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin: 1rem;
 }
 
 .avatar-img {
-  width: 20%;
+  width: 23%;
 }
 
 .about-summary {
+  display: flex;
+  align-items: center;
   font-size: 1.3rem;
   width: 25rem;
 }
