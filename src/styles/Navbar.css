@@ -1,26 +1,29 @@
-.navbar {
-  position: relative;
+#main_navbar {
+  overflow: hidden;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0.7rem 1rem;
   font-size: 1rem;
 }
 
 .navbar-main-links {
   display: flex;
   align-items: center;
+  margin-left: 1rem;
 }
 
 .navbar-ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  margin-right: 1rem;
 }
 
 .navbar-home-link {
   padding: 0.5rem;
-  margin-left: 1em;
   min-width: 5rem;
   font-size: 2rem;
   color: white;

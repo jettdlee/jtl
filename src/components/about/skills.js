@@ -13,6 +13,7 @@ function Skills() {
           <img id="html5" src="/images/skills/html5.svg" alt="" />
           <img id="java" src="/images/skills/java.png" alt="" />
           <img id="react" src="/images/skills/react.png" alt="" />
+          <img id="sql" src="/images/skills/sql.png" alt="" />
         </div>
       </div>
     </div>

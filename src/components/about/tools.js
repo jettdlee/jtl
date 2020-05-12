@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutImages from '../partials/AboutImages';
 
 function Tools() {
   return (
@@ -6,10 +7,12 @@ function Tools() {
       <div>
         <h3>Tools</h3>
         <div>
-          <img id="git" src="/images/skills/git.png" alt="" />
-          <img id="vim" src="/images/skills/vim.png" alt="" />
-          <img id="bitbucket" src="/images/skills/bitbucket.svg" alt="" />
-          <img id="jira" src="/images/skills/jira.svg" alt="" />
+          <AboutImages imageId='git' srcPath="/images/tools/git.png" alt="Git" />
+          <AboutImages imageId="vim" srcPath="/images/tools/vim.png" alt="Vim" />
+          <AboutImages imageId="bitbucket" srcPath="/images/tools/bitbucket.svg" alt="BitBucket" />
+          <AboutImages imageId="jira" srcPath="/images/tools/jira.svg" alt="Jira" />
+          <AboutImages imageId="mysql" srcPath="/images/tools/mysql.png" alt="MySql" />
+          <AboutImages imageId="postman" srcPath="/images/tools/postman.png" alt="Postman" />
         </div>
       </div>
     </div>
