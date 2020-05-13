@@ -4,7 +4,9 @@ function AboutImages(props) {
   const { imageId, srcPath, alt } = props;
 
   return(
-    <img className="about-images" id={imageId} src={srcPath} alt={alt} />
+    <span>
+      <img className="about-images" id={imageId} src={srcPath} alt={alt} />
+    </span>
   )
 }
 

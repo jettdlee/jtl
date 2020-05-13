@@ -1,12 +1,21 @@
 import React from 'react';
 import AboutImages from '../partials/AboutImages';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 function Skills() {
   return (
     <div id="skills">
       <div>
-        <h3>Skills</h3>
         <div className="skill-img">
+          <span id="skill_item">
+            <span id="skill_icon">
+              <FontAwesomeIcon icon={faLaptopCode} />
+            </span>
+            <span id="skill_text">
+              Skills
+            </span>
+          </span>
           <AboutImages imageId="rails" srcPath="/images/skills/rails.png" alt="" />
           <AboutImages imageId="ruby" srcPath="/images/skills/ruby.png" alt="" />
           <AboutImages imageId="python" srcPath="/images/skills/python.png" alt="" />

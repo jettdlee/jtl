@@ -2,3 +2,24 @@
   height: 5rem;
   margin: 10px
 }
+
+#skill_item {
+  padding: 1.8rem !important;
+  margin: 10px 2rem;
+  position: relative;
+}
+
+#skill_icon {
+  position: absolute;
+  font-size: 3.0rem;
+  left: 0;
+  width: 5rem;
+}
+
+#skill_text {
+  width: 5rem;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  font-size: 1.5rem;
+}
