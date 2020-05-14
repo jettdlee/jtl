@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutImages from '../partials/AboutImages';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import NamedItem from './NamedItem';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 function Skills() {
@@ -8,14 +8,7 @@ function Skills() {
     <div id="skills">
       <div>
         <div className="skill-img">
-          <span id="skill_item">
-            <span id="skill_icon">
-              <FontAwesomeIcon icon={faLaptopCode} />
-            </span>
-            <span id="skill_text">
-              Skills
-            </span>
-          </span>
+          <NamedItem icon={faLaptopCode} text="Skills" />
           <AboutImages imageId="rails" srcPath="/images/skills/rails.png" alt="" />
           <AboutImages imageId="ruby" srcPath="/images/skills/ruby.png" alt="" />
           <AboutImages imageId="python" srcPath="/images/skills/python.png" alt="" />

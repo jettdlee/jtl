@@ -3,20 +3,20 @@
   margin: 10px
 }
 
-#skill_item {
+#named_item {
   padding: 1.8rem !important;
   margin: 10px 2rem;
   position: relative;
 }
 
-#skill_icon {
+#named_icon {
   position: absolute;
   font-size: 3.0rem;
   left: 0;
   width: 5rem;
 }
 
-#skill_text {
+#named_text {
   width: 5rem;
   left: 0;
   bottom: 0;

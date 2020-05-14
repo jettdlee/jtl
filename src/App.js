@@ -14,7 +14,7 @@ import './styles/App.css';
 
 const App = () => (
   <div className="App">
-    <div className="content-wrap">
+    <div className="">
       <HashRouter>
         <Navbar />
         <Switch>

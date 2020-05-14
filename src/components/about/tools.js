@@ -1,12 +1,14 @@
 import React from 'react';
 import AboutImages from '../partials/AboutImages';
+import NamedItem from './NamedItem';
+import { faTools } from '@fortawesome/free-solid-svg-icons';
 
 function Tools() {
   return (
     <div id="tools">
       <div>
-        <h3>Tools</h3>
-        <div>
+        <div className="tools">
+          <NamedItem icon={faTools} text="Skills" />
           <AboutImages imageId='git' srcPath="/images/tools/git.png" alt="Git" />
           <AboutImages imageId="vim" srcPath="/images/tools/vim.png" alt="Vim" />
           <AboutImages imageId="bitbucket" srcPath="/images/tools/bitbucket.svg" alt="BitBucket" />
